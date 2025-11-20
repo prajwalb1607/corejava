@@ -4,6 +4,15 @@ import com.xworkz.abstraction.abstracts.Building;
 
 public class House extends Building {
 
+    public void budget(){
+        System.out.println("house budget");
+    }
+
+    public static void rent(){
+        System.out.println("house rent ");
+    }
+
+
     @Override
     public void openGate() { System.out.println("House Gate Opened"); }
 
@@ -21,6 +30,19 @@ public class House extends Building {
 
 
 
+
+
+
+
+
+            public House(int price){
+            super(price);
+
     }
+
+    }
+
+
+
 
 

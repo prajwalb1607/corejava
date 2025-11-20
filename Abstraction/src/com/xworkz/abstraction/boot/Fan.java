@@ -30,7 +30,15 @@ public class Fan extends Applicance {
             System.out.println("Fan status displayed.");
         }
 
-
+        public Fan(String name){
+            super(name);
 
         }
+
+        }
+
+
+
+
+
 

@@ -29,5 +29,9 @@ public class Car extends Vehicle {
     public void horn() {
         System.out.println("Car horn: Beep! Beep!");
     }
+
+    public Car(int price){
+        super(price);
+    }
 }
 
